@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
 
 :root {
-    --deep-blue: #001434;
+    --deep-blue: #001334;
 }
 
 body {
@@ -47,6 +47,7 @@ p {
 .with-num__word {
     font-size: 20px;
     line-height: 1.2;
+    text-align: right;
 }
 
 .top-text__paragraph {
@@ -59,6 +60,10 @@ p {
     display: flex;
     flex-flow: column;
     align-items: flex-end;
+}
+
+.with-num:first-of-type {
+    margin-bottom: 130px;
 }
 
 .top-text__wrapper {
@@ -99,4 +104,117 @@ p {
 
 .structure__proto-screens {
     display: flex;
+}
+
+.triangle {
+    background: var(--deep-blue);
+    padding-bottom: 200px;
+}
+
+.triangle__wrapper {
+    background: url(/src/img/triangle.png) no-repeat center;
+    background-size: contain;
+    padding: 170px 0 200px;
+    max-width: 810px;
+}
+
+.center-par {
+    font-size: 28px;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.center-par_white {
+    color: white;
+}
+
+.center-link {
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.center-link_red {
+    color: #FF3D13;
+}
+
+.colors {
+    overflow: hidden;
+}
+
+.colors__row {
+    display: flex;
+}
+
+.colors__block {
+    position: relative;
+    height: 380px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.colors__block_long {
+    flex: 2;
+}
+
+.colors__block_blue {
+    background: #0044B8;
+    border: 1px solid #0044B8;
+}
+
+.colors__block_geepblue {
+    background: var(--deep-blue);
+    border: 1px solid var(--deep-blue);
+}
+
+.colors__block_red {
+    background: #FF3D13;
+    border: 1px solid #FF3D13;
+}
+
+.colors__block_blackened {
+    background: #000F28;
+    border: 1px solid #000F28;
+}
+
+.colors__block_grey {
+    background: #1C2D4A;
+    border: 1px solid #1C2D4A;
+}
+
+.colors__block_white {
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.colors__title {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: -40px;
+    transition: all 0.2s ease-in-out;
+}
+
+.colors__title_black {
+    color: #000;
+}
+
+.colors__title_show {
+    bottom: 40px;
+}
+
+.colors__block_border:hover,
+.colors__block_border:focus {
+    border: 1px solid white;
+}
+
+.colors__block:hover .colors__title,
+.colors__block:focus .colors__title {
+    bottom: 40px;
 }
