@@ -262,7 +262,7 @@ p {
 }
 
 .map {
-    background: url(/src/img/tablet.png) no-repeat right 30%, url(/src/img/map.png) no-repeat right 5000%, var(--deep-blue);
+    background: url(/src/img/tablet.png) no-repeat right 330px, url(/src/img/map.png) no-repeat right 900px, var(--deep-blue);
 }
 
 .map__wrapper {
@@ -273,7 +273,7 @@ p {
 .map__text-par {
     font-size: 28px;
     line-height: 1.8;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: white;
     width: 500px;
 }
@@ -283,5 +283,57 @@ p {
 }
 
 .map__text-par_mb {
-    margin-bottom: 220px;
+    margin-bottom: 270px;
+}
+
+.catalog__wrapper {
+    max-width:1280px;
+}
+
+.catalog__img {
+    display: block;
+}
+
+.catalog__center-title {
+    margin-bottom: 30px;
+}
+
+.static {
+    background: #0044B8;
+    padding-top: 50px;
+}
+
+.static__wrapper {
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.static__par {
+    font-size: 28px;
+    line-height: 1.8;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.static__img {
+    display: block;
+}
+
+.static__img_mb {
+    margin-bottom: 40px;
+}
+
+.static__text {
+    width: 540px;
+}
+
+.descr__wrapper {
+    max-width: 720px;
+}
+
+.descr {
+    background: #0044B8;
+    padding: 200px 0 150px;
 }
