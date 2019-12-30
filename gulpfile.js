@@ -20,7 +20,8 @@ function styles() {
     .pipe(concat('style.css'))
     .pipe(autoprefixer({
         overrideBrowserslist: ['last 2 versions'],
-        cascade: false 
+        cascade: false ,
+        grid: true
     }))
     .pipe(cleanCSS({
         level: 2
