@@ -8,6 +8,8 @@ body {
     margin: 0;
     line-height: 1.7;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 500px;
+    background: var(--deep-blue);
 }
 
 img {
@@ -23,17 +25,12 @@ p {
     margin: 0 auto;
 }
 
-.title-block {
-    background: var(--deep-blue);
-}
-
 .title-block__img {
     display: block;
     margin: 0 auto;
 }
 
 .top-text {
-    background: var(--deep-blue);
     color: white;
     padding: 300px 0;
 }
@@ -76,10 +73,6 @@ p {
     width: 61%;
 }
 
-.structure {
-    background: var(--deep-blue);
-}
-
 .structure__wrapper {
     max-width: 1500px;
     display: flex;
@@ -108,7 +101,6 @@ p {
 }
 
 .triangle {
-    background: var(--deep-blue);
     padding-bottom: 200px;
 }
 
@@ -145,6 +137,12 @@ p {
 
 .center-link_red {
     color: #FF3D13;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.center-link_red:hover,
+.center-link_red:focus {
+    opacity: 0.7;
 }
 
 .colors {
@@ -367,17 +365,9 @@ p {
     display: block;
 }
 
-.pics-text {
-    background: #000F28;
-}
-
 .pics-text__wrapper {
     max-width: 720px;
     padding: 170px 0;
-}
-
-.pics {
-    background: #000F28;
 }
 
 .pics__wrapper {
@@ -401,3 +391,81 @@ p {
     margin: 0 auto;
 }
 
+.tablet {
+    padding: 200px 0;
+}
+
+.tablet__img {
+    display: block;
+}
+
+.schemes__wrapper {
+    max-width: 1380px;
+}
+
+.schemes__center-title {
+    margin-bottom: 100px;
+}
+
+.schemes__img-big {
+    display: none;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.schemes__img-big1 {
+    display: block;
+}
+
+.schemes__img-small {
+    height: 300px;
+    display: block;
+}
+
+.schemes__img-sm1 {
+    display: none;
+}
+
+.schemes__small {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.laptop {
+    padding-top: 200px;
+    position: relative;
+}
+
+.laptop__img {
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.laptop__border {
+    width: 520px;
+    height: 600px;
+    background: url(/src/img/rectangle.png) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.laptop__wrapper {
+    max-width: 520px;
+    padding: 380px 0 130px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.laptop__center-par {
+    margin-bottom: 15px;
+}
