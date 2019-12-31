@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
 
-:root {
-    --deep-blue: #001334;
-}
-
 body {
     margin: 0;
     line-height: 1.7;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 500px;
-    background: var(--deep-blue);
+    background: #001334;
 }
 
 img {
@@ -133,6 +129,7 @@ p {
     width: max-content;
     text-decoration: underline;
     text-underline-position: under;
+    text-align: center;
 }
 
 .center-link_red {
