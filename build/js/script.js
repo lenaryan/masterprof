@@ -1,0 +1,1 @@
+$(".schemes__img-small").click(function(){$(".schemes__img-smdn").removeClass("schemes__img-smdn").slideDown(),$(this).slideUp().addClass("schemes__img-smdn");var s=$(this).data("class");$(".schemes__img-big").each(function(){$(this).hasClass(s)?$(this).removeClass("schemes__img-bigdn").slideDown():$(this).slideUp().addClass("schemes__img-bigdn")})});
