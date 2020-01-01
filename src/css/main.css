@@ -257,7 +257,7 @@ p {
 }
 
 .map {
-    background: url(/src/img/tablet.png) no-repeat right 330px, url(/src/img/map.png) no-repeat right 900px, #001334;
+    background: url(/src/img/tablet.png) no-repeat right 330px, url(/src/img/map.png) no-repeat right 900px;
 }
 
 .map__wrapper {
