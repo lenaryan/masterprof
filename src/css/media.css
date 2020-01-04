@@ -92,10 +92,23 @@
     .pages__wrapper {
         overflow-x: scroll;
         padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .pages {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -30px;
     }
 
     .pages__img {
         max-width: unset;
+    }
+
+    .pics-text {
+        background: #001334;
+        position: relative;
+        z-index: 2;
     }
 }
 
@@ -333,7 +346,6 @@
 
     .structure__proto-column:first-of-type {
         margin-right: 0;
-        margin-bottom: 20px;
     }
 
     .structure__proto-item {
@@ -345,6 +357,9 @@
         display: flex;
         align-items: flex-start;
         overflow-x: scroll;
+        padding-bottom: 60px;
+        margin-bottom: -40px;
+        background: #001334;
     }
 
     .structure__proto-screens {
@@ -366,6 +381,9 @@
 
     .triangle {
         padding-bottom: 50px;
+        background: #001334;
+        position: relative;
+        z-index: 1;
     }
 
     .center-par {
