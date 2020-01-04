@@ -156,6 +156,7 @@ p {
     height: 380px;
     box-sizing: border-box;
     flex: 1;
+    overflow: hidden;
 }
 
 .colors__block_long {
