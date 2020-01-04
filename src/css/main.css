@@ -409,7 +409,7 @@ p {
 
 .schemes__img-big {
     display: block;
-    height: 480px;
+    height: 100%;
     margin: 0 auto;
 }
 
