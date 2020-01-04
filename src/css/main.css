@@ -6,6 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 500px;
     background: #001334;
+    overflow-x: hidden;
 }
 
 img {
