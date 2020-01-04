@@ -8,10 +8,12 @@ const browserSync = require('browser-sync').create();
 
 const cssFiles = [
     './src/css/main.css',
+    './src/css/animate.css',
     './src/css/media.css'
 ]
 
 const jsFiles = [
+    './src/js/wow.min.js',
     './src/js/main.js'
 ]
 

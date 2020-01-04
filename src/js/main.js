@@ -11,3 +11,5 @@ $('.schemes__img-small').click(function() {
         
     });
 });
+
+new WOW().init();
